@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- customize style -->
+    <style>
+        .font-Manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-Manrope mb-96">
+    <header class="container mx-auto px-8 lg:px-24">
+        <nav>
+            <div class="navbar pt-5 pb-10 justify-center items-center">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a class="text-base text-[#FF4240] font-normal">Home</a></li>
+                            <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">About</a></li>
+                            <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">Pages</a></li>
+                            <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">Blog</a></li>
+                            <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-xl md:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-base text-[#FF4240] font-normal">Home</a></li>
+                        <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">About</a></li>
+                        <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">Pages</a></li>
+                        <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">Blog</a></li>
+                        <li><a class="text-base hover:text-[#FF4240] opacity-75 font-normal">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex items-center">
+                    <i class="fa-solid fa-magnifying-glass mr-5 cursor-pointer opacity-50 text-lg hidden md:flex"></i>
+                    <a class="btn bg-[#FF4240] border-none text-white text-sm md:text-xl font-bold hover:bg-slate-800">Get
+                        Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <div class="banner_section relative">
+            <div class="carousel w-full rounded-xl">
+                <div id="slide1"
+                    class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(./images/1.png)] bg-no-repeat bg-center bg-cover h-[55vh]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-10 gap-5 top-[90%]">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none text-2xl">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none text-2xl">❯</a>
+                    </div>
+                </div>
+                <div id="slide2"
+                    class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(./images/2.png)] bg-no-repeat bg-center bg-cover h-[55vh]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-10 gap-5 top-[90%]">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none text-2xl">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white border-none text-2xl">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="translate-y-4 md:-translate-y-60 md:translate-x-[250px] lg:-translate-y-52 lg:translate-x-[750px] bg-[#131318] px-6 py-6 rounded-lg md:w-3/5 lg:w-2/5 space-y-3 text-center md:text-justify absolute">
+                <h3 class="text-white text-xl">Meet all the heroes from the field</h3>
+                <p class="opacity-25 text-white text-base">Hockey is a term used to denote a family of various types of
+                    both summer and winter team sports which originated on either an outdoor field, sheet of
+                    ice, or dry floor such as in a gymnasium. </p>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto px-8 lg:px-24">
+        <section class="mt-[288px] md:mt-20">
+            <div>
+                <h1 class="text-2xl md:text-4xl text-center font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-base text-center md:w-2/3 mx-auto mt-3 lg:mt-6 mb-6 lg:mb-12 opacity-70">The belief that
+                    hockey was mentioned
+                    in a 1363 proclamation by King Edward III of England is based on modern translations of the
+                    proclamation, which was originally in Latin and explicitly forbade the games.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="space-y-2">
+                        <div class="flex justify-center items-center">
+                            <div class="radial-progress text-[#FF4240] text-3xl font-extrabold"
+                                style="--value:87; --size:8rem;" role="progressbar">87%</div>
+                        </div>
+                        <h3 class="text-xl text-center font-semibold">Prayer Facility</h3>
+                        <p class="text-base opacity-70 text-center lg:w-2/3 mx-auto">We continue our series on prayer.
+                            We figure out where a hockey player should pray.</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-center items-center">
+                            <div class="radial-progress text-[#49D293] text-3xl font-extrabold"
+                                style="--value:95; --size:8rem;" role="progressbar">95%</div>
+                        </div>
+                        <h3 class="text-xl text-center font-semibold">Experienced Coach</h3>
+                        <p class="text-base opacity-70 text-center lg:w-2/3 mx-auto">We continue our series on prayer.
+                            We figure out where a hockey player should pray.</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-center items-center">
+                            <div class="radial-progress text-[#FFB546] text-3xl font-extrabold"
+                                style="--value:90; --size:8rem;" role="progressbar">90%</div>
+                        </div>
+                        <h3 class="text-xl text-center font-semibold">Senior Player</h3>
+                        <p class="text-base opacity-70 text-center lg:w-2/3 mx-auto">We continue our series on prayer.
+                            We figure out where a hockey player should pray.</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-center items-center">
+                            <div class="radial-progress text-[#4C8DF1] text-3xl font-extrabold"
+                                style="--value:80; --size:8rem;" role="progressbar">80%</div>
+                        </div>
+                        <h3 class="text-xl text-center font-semibold">Training Ground</h3>
+                        <p class="text-base opacity-70 text-center lg:w-2/3 mx-auto">We continue our series on prayer.
+                            We figure out where a hockey player should pray.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-8 md:mt-20">
+            <div>
+                <h1 class="text-2xl md:text-4xl text-center font-extrabold">Program Sections</h1>
+                <p class="text-base text-center md:w-2/3 mx-auto mt-3 lg:mt-6 mb-6 lg:mb-12 opacity-70">Ice hockey (or
+                    simply hockey) is a team sport played on ice skates, usually on an ice skating rink with lines and
+                    markings specific to the sport.</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div
+                        class="relative w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/2.png)] bg-no-repeat bg-center bg-cover lg:h-[345px] rounded-2xl flex justify-start items-end p-10">
+                        <div class="space-y-5 text-center md:text-justify">
+                            <h3 class="text-white text-2xl font-extrabold">Junior Program</h3>
+                            <p class="text-white">The modern sport of ice hockey was developed in Canada, most notably in Montreal, where the first indoor game was played on March 3, 1875. Some characteristics of that game, such as the length of the ice rink and the use of a puck, have been retained to this day.</p>
+                            <a class="btn bg-[#FF4240] border-none text-white text-sm md:text-xl font-bold hover:bg-[#FF4240]">Register Now!</a>
+                        </div>
+                    </div>
+                    <div
+                        class="relative w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/3.png)] bg-no-repeat bg-center bg-cover lg:h-[345px] rounded-2xl flex items-end p-10">
+                        <div class="space-y-5 text-center md:text-justify">
+                            <h3 class="text-white text-2xl font-extrabold">Teenager Program</h3>
+                            <p class="text-white">The modern sport of ice hockey was developed in Canada, most notably in Montreal, where the first indoor game was played on March 3, 1875. Some characteristics of that game, such as the length of the ice rink and the use of a puck, have been retained to this day.</p>
+                            <a class="btn bg-[#FF4240] border-none text-white text-sm md:text-xl font-bold hover:bg-[#FF4240]">Register Now!</a>
+                        </div>
+                    </div>
+                    <div
+                        class="relative w-full bg-[linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/4.png)] bg-no-repeat bg-center bg-cover lg:h-[550px] rounded-2xl flex justify-start items-end p-10 col-span-1 lg:col-span-2">
+                        <div class="space-y-5 text-center md:text-justify">
+                            <h3 class="text-white text-2xl font-extrabold">Professional Program</h3>
+                            <p class="text-white lg:w-4/5">The modern sport of ice hockey was developed in Canada, most notably in Montreal, where the first indoor game was played on March 3, 1875. Some characteristics of that game, such as the length of the ice rink and the use of a puck, have been retained to this day.</p>
+                            <a class="btn bg-[#FF4240] border-none text-white text-sm md:text-xl font-bold hover:bg-[#FF4240]">Register Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
